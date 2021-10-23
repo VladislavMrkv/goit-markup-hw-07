@@ -16,13 +16,12 @@
   position: relative;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-    fill: var(--accent-color);
-  }
 }
 
+.header_link:hover,
+.header_link:focus,
+.header_contacts_link:hover,
+.header_contacts_link:focus,
 .header_contacts_link:hover .header_icon,
 .header_contacts_link:focus .header_icon {
   color: var(--accent-color);
@@ -65,11 +64,6 @@
   padding-bottom: 32px;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-    fill: var(--accent-color);
-  }
 }
 
 .header_logo {

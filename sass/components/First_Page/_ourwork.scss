@@ -12,16 +12,15 @@
   display: flex;
 }
 
-.our_work_item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .our_work {
   padding-bottom: 94px;
 }
 
 .our_work_item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .our-work-img-text {

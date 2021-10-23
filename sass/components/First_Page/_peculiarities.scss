@@ -21,9 +21,11 @@
   color: var(--primary-text-color);
 }
 
-.peculiarities_item:not(:last-child) {
-  width: 270px;
-  margin-right: 30px;
+.peculiarities_item {
+  &:not(:last-child) {
+    width: 270px;
+    margin-right: 30px;
+  }
 }
 
 .peculiarities_social_icon {
